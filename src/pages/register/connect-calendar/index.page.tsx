@@ -18,9 +18,6 @@ export default function Register() {
     await signIn('google')
   }
 
-  console.log(isSignedId)
-  console.log(!isSignedId)
-
   return (
     <Container>
       <Header>
