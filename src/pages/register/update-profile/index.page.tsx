@@ -16,8 +16,8 @@ import { z } from 'zod'
 import { Container, Header } from '../styles'
 import { FormAnnotation, ProfileBox } from './styles'
 import { buildNextAuthOptions } from '@/pages/api/auth/[...nextauth].api'
-import { api } from '@/pages/lib/axios'
 import { useRouter } from 'next/router'
+import { api } from '@/lib/axios'
 
 const updateProfileSchema = z.object({
   bio: z.string(),

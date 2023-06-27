@@ -22,8 +22,8 @@ import {
   IntervalInputs,
   IntervalItem,
 } from './styles'
-import { api } from '@/pages/lib/axios'
 import { useRouter } from 'next/router'
+import { api } from '@/lib/axios'
 
 const timeIntervalsFormSchema = z.object({
   intervals: z
